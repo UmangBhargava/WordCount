@@ -14,7 +14,8 @@ public class WordCount {
             String line=scanner.nextLine();
             words+=(line.split(" ").length);
         }
-
+        
+      /* Prints the output. */
       System.out.println("The file contains: "+words+" words.");
     }
 
